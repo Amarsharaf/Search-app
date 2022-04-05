@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+input {
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+ol {
+    list-style-type: none;
+    list-style-type: none;
+    margin-top: 20px;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 15px 7em;
+    color: white;
+    padding: 15px;
+}
